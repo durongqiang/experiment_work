@@ -3,6 +3,7 @@
 #include<fstream>
 #include<sstream>
 #include<iostream>
+
 Seek_point::Seek_point(std::string input_type, std::string input_file_path, std::string file_txt_path)
 {
 	type = input_type;
@@ -125,6 +126,8 @@ void Seek_point::show_startpoint() {
 		<< "z: " << startpoint[2]
 		<< std::endl;
 };
+
+
 
 Seek_point::~Seek_point()
 {
